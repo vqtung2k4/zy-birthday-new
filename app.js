@@ -1,3 +1,23 @@
+
+const playlist = [
+  'mbackground.mp3',
+  'mbackground2.mp3',
+];
+
+const audioPlayer = document.getElementById('audio-player');
+let currentSongIndex = 0;
+
+audioPlayer.addEventListener('ended', () => {
+  // When the current song ends, move to the next song in the playlist
+  currentSongIndex = (currentSongIndex + 1) % playlist.length;
+  audioPlayer.src = playlist[currentSongIndex];
+  audioPlayer.play();
+});
+
+// Start playing the first song in the playlist
+audioPlayer.src = playlist[currentSongIndex];
+audioPlayer.play();
+
 (function () {
     const second = 1000,
           minute = second * 60,
@@ -31,5 +51,4 @@
           //seconds
         }, 0)
     }());
-
     
