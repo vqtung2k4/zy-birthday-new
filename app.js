@@ -18,6 +18,8 @@ audioPlayer.addEventListener('ended', () => {
 audioPlayer.src = playlist[currentSongIndex];
 audioPlayer.play();
 
+
+
 (function () {
     const second = 1000,
           minute = second * 60,
