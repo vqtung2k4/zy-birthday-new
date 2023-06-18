@@ -28,11 +28,6 @@ h1{
     text-transform: uppercase;
 }
 
-#clara{
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 li{
     display: inline-block;
