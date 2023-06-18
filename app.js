@@ -1,3 +1,11 @@
+// music background
+function playBackgroundMusic() {
+  var audio = document.getElementById('backgroundMusic');
+  audio.volume = 0.5; // Adjust the volume (0.0 to 1.0)
+  audio.play();
+}
+
+
 
 (function () {
     const second = 1000,

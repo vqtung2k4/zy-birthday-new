@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 
 html, body{
@@ -53,3 +53,7 @@ li span{
     padding: 0 .5rem;
 }
 
+
+.music-icon {
+    font-size: 25px;
+}
