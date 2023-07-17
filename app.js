@@ -9,7 +9,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let birthday = "Jul 29, 2023 00:00:00",
+    let birthday = "Jul 13, 2023 00:00:00",
         countDown = new Date(birthday).getTime(),
         x = setInterval(function() {    
   
@@ -46,8 +46,8 @@
 
 
     // OTHER
-    const contentLetterSrart_actived = "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé." //Lời mở đầu cho bức thư
-const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương." //Nội dung của bức thư
+    const contentLetterSrart_actived = "Hi cậu!!! Tớ có chút bất ngờ nhỏ này hi vọng cậu sẽ thích" //Lời mở đầu cho bức thư
+const mainContentLetter = "Nhân dịp sinh nhặt cậu, tớ có món quà nhỏ xíu nàyy. Mong cậu sẽ khong chê. Chỉ vậy thuii. Chúc cậu có một ngày sinh nhật vui vẻ nhaaa!!" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
